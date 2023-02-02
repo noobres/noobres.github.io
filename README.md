@@ -1,1 +1,1 @@
-<img src="https://github.com/noobres/noobres/blob/main/image2vector.png" width=200></br>
+<img src="https://github.com/noobres/noobres/blob/main/image2vector.png" width=150></br>
