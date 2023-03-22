@@ -1,0 +1,75 @@
+/* Define a cor de fundo da página */
+body {
+    background-color: #FFFFFF;
+}
+
+/* Centraliza o conteúdo da página */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #FFA500;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estiliza o título da página */
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Estiliza o botão de "Saiba mais" */
+button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Estiliza a área de conteúdo */
+.content {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 30px;
+}
+
+/* Estiliza a lista de serviços */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFA500;
+    color: #000000;
+    padding: 30px;
+}
+
+/* Estiliza as entradas do formulário */
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Estiliza o botão "Enviar" do formulário */
+button[type="submit"] {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
