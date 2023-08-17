@@ -1,44 +1,86 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empresa de Automação e Integração de Sistemas</title>
-    <link rel="stylesheet" href="style.css">
+    <title>TechServices Inc.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-
 <body>
-    <!-- Área de apresentação -->
-    <section class="presentation">
-        <h1>Bem-vindo à nossa empresa de automação e integração de sistemas</h1>
-        <p>Somos uma empresa especializada em soluções tecnológicas para otimizar e automatizar processos de negócios.</p>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="TechServices Inc. Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#servicos-empresas">Serviços para Empresas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos-profissionais">Serviços para Profissionais</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Bem-vindo à TechServices Inc.</h1>
+        <p class="lead">Sua parceira em soluções tecnológicas de ponta.</p>
+    </header>
+
+    <section id="servicos-empresas" class="container my-5">
+        <h2 class="text-center">Serviços para Empresas</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Integração de Sistemas</li>
+                    <li class="list-group-item">Automatização de Processos</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Desenvolvimento de Software</li>
+                    <li class="list-group-item">Chatbots de Atendimento</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <!-- Área de conteúdo -->
-    <section class="content">
-        <h2>Serviços para Empresas</h2>
-        <ul>
-            <li>Integração de sistemas</li>
-            <li>Automatização de processos</li>
-            <li>Desenvolvimento de software</li>
-            <li>Chatbots de Atendimento</li>
-        </ul>
-		
-        <h2>Serviços para Profissionais e/ou Estudantes</h2>
-        <ul>
-            <li>Desenvolvimento Profissional</li>
-            <li>Linguagens de Programação</li>
-            <li>Automação Industrial</li>
-            <li>Indústria 4.0 e Conectividade</li>
-        </ul>		
-		
-		
-		
-        <p>Nosso objetivo é fornecer soluções personalizadas para atender às necessidades de nossos clientes.</p>
+    <section id="servicos-profissionais" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Serviços para Profissionais</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Desenvolvimento Profissional</li>
+                        <li class="list-group-item">Linguagens de Programação</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Automação Industrial</li>
+                        <li class="list-group-item">Indústria 4.0</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <script src="script.js"></script>
+    <section id="contato" class="container my-5">
+        <h2 class="text-center">Entre em Contato Conosco</h2>
+        <p class="text-center">Estamos prontos para ajudar a impulsionar sua inovação tecnológica.</p>
+        <p class="text-center"><a href="mailto:contato@techservices.com">contato@techservices.com</a></p>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 TechServices Inc. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
